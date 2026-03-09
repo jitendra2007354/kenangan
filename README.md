@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# Kenangan: Premium Artisanal Coffee & Tea from Ajmer, Rajasthan
 
-This contains everything you need to run your app locally.
+[![Kenangan Coffee](https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80)](https://kenangan.in)
 
-View your app in AI Studio: https://ai.studio/apps/d781916d-70ab-40b6-949d-9cf10f321759
+**Kenangan** is a premium, home-grown brand based in the historic city of Ajmer, Rajasthan. We specialize in sourcing, roasting, and delivering the finest artisanal coffee and rare teas across India. Our mission is to turn every cup into a "Kenangan" (Indonesian for *Memory*).
 
-## Run Locally
+## 🌟 The Kenangan Unique Concept: Personalized Coffee Gifts
+We believe coffee is personal. Our unique platform allows you to **name a coffee after your loved ones**. Whether it's a gift for a friend or a treat for yourself, we create custom labels that make every brew a lasting memory.
 
-**Prerequisites:**  Node.js
+---
 
+## 🚀 Key Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **📍 Based in Ajmer, Rajasthan**: Proudly serving the local community and delivering pan-India.
+- **☕ Artisanal Coffee**: Sourced directly from high-altitude estates in Chikmagalur.
+- **🍃 Rare Tea Collection**: Hand-picked selections from Darjeeling, Assam, and Uji (Matcha).
+- **🎁 Personalized Gifting**: Unique "Name a Coffee" feature for truly bespoke gifts.
+- **🚚 Pan-India Delivery**: Freshly roasted beans and premium ingredients delivered to your doorstep.
+- **💳 Secure Checkout**: Easy ordering with Cash on Delivery (COD) support.
+- **💬 Kenangan Talks**: A community-focused initiative bringing people together over great brews.
+
+This project is optimized for search engines with:
+- **Semantic HTML5**: Proper use of header tags and descriptive sections.
+- **Dynamic Metadata**: SEO-friendly titles and descriptions for every page.
+- **High-Quality Visuals**: Optimized images with descriptive alt text and referrer policies.
+- **Performance**: Fast loading times using Vite and optimized React components.
+
+---
+
+## 📬 Contact Us
+
+- **Email**: info@kenangan.in
+- **Office**: 2nd Floor, City Car Ajmer Office, Ajmer, Rajasthan, India
+- **Website**: [kenangan.in](https://www.kenangan.in)
+
+---
+
+*Brewing Memories, One Cup at a Time.* ☕✨
