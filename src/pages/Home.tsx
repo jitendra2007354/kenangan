@@ -21,9 +21,9 @@ export const Home: React.FC<HomeProps> = ({ addToCart }) => {
   return (
     <>
       <SEO 
-        title="Kenangan | Best Coffee & Tea in Ajmer, Rajasthan" 
-        description="Experience the finest artisanal coffee and tea at Kenangan. Based in Ajmer, we deliver premium brews and ingredients across India. Personalize your coffee with a loved one's name."
-        keywords="Kenangan, premium coffee Ajmer, best tea Rajasthan, personalized coffee gifts, artisanal coffee India, coffee delivery Ajmer, tea shop Ajmer, Rajasthan coffee culture"
+        title="Kenangan | Best Coffee & Tea in India" 
+        description="Experience the finest artisanal coffee and tea at Kenangan. we deliver premium brews and ingredients across India. Personalize your coffee with a loved one's name."
+        keywords="Kenangan, premium coffee, best tea Rajasthan, personalized coffee gifts, artisanal coffee India, coffee delivery Ajmer, tea shop Ajmer, Rajasthan coffee culture"
       />
       
       {/* Hero Section */}
@@ -32,7 +32,7 @@ export const Home: React.FC<HomeProps> = ({ addToCart }) => {
           <img 
             src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1920&q=80" 
             className="w-full h-full object-cover opacity-40"
-            alt="Kenangan Coffee Shop Atmosphere in Ajmer"
+            alt="Kenangan Coffee Shop Atmosphere in India"
             referrerPolicy="no-referrer"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-brand-cream/0 via-brand-cream/50 to-brand-cream" />
@@ -44,7 +44,7 @@ export const Home: React.FC<HomeProps> = ({ addToCart }) => {
             animate={{ opacity: 1, y: 0 }}
             className="text-brand-olive uppercase tracking-[0.4em] text-sm font-bold mb-6 block"
           >
-            Kenangan • Premium Coffee & Tea • Ajmer, Rajasthan
+            Kenangan • Premium Coffee & Tea, India
           </motion.span>
           <motion.h1 
             initial={{ opacity: 0, y: 30 }}
@@ -61,7 +61,7 @@ export const Home: React.FC<HomeProps> = ({ addToCart }) => {
             transition={{ delay: 0.2 }}
             className="text-xl md:text-2xl text-brand-ink/70 max-w-3xl mx-auto mb-12 leading-relaxed"
           >
-            Welcome to Kenangan, where every cup is a journey through time. Based in the heart of Ajmer, we deliver artisanal coffee, rare teas, and premium ingredients to your doorstep. Our unique concept allows you to name the coffee after your loved ones, creating a truly personal memory.
+            Welcome to Kenangan, where every cup is a journey through time.We deliver artisanal coffee, rare teas, and premium ingredients to your doorstep. Our unique concept allows you to name the coffee after your loved ones, creating a truly personal memory.
           </motion.p>
           <motion.div 
             initial={{ opacity: 0, y: 30 }}
@@ -101,7 +101,7 @@ export const Home: React.FC<HomeProps> = ({ addToCart }) => {
                 </div>
                 <div>
                   <h4 className="text-xl font-serif">2026</h4>
-                  <p className="text-[10px] uppercase tracking-widest font-bold opacity-40">Founded in Ajmer</p>
+                  <p className="text-[10px] uppercase tracking-widest font-bold opacity-40">Founded in India</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -130,7 +130,7 @@ export const Home: React.FC<HomeProps> = ({ addToCart }) => {
               />
             </div>
             <div className="absolute -bottom-12 -left-12 bg-brand-olive text-brand-cream p-10 rounded-[40px] shadow-2xl max-w-xs">
-              <p className="text-2xl font-serif italic mb-4">"A memory in every sip, delivered from Ajmer to your home."</p>
+              <p className="text-2xl font-serif italic mb-4">"A memory in every sip, delivered to your home."</p>
               <p className="text-xs uppercase tracking-[0.2em] font-bold opacity-60">— The Kenangan Team</p>
             </div>
           </motion.div>
@@ -165,7 +165,7 @@ export const Home: React.FC<HomeProps> = ({ addToCart }) => {
               <Truck size={40} />
             </div>
             <h3 className="text-2xl font-serif mb-4">Pan-India Delivery</h3>
-            <p className="text-brand-ink/60 leading-relaxed">From the narrow lanes of Ajmer to the bustling streets of Mumbai, we deliver our fresh brews anywhere in India.</p>
+            <p className="text-brand-ink/60 leading-relaxed">From the narrow lanes of india to the bustling streets of Mumbai, we deliver our fresh brews anywhere in India.</p>
           </div>
           <div className="text-center">
             <div className="w-20 h-20 bg-brand-olive/5 rounded-full flex items-center justify-center mx-auto mb-8 text-brand-olive">
