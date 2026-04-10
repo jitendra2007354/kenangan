@@ -7,8 +7,8 @@ export const About: React.FC = () => {
     <>
       <SEO 
         title="Our Story | Kenangan - Brewing Memories in Ajmer" 
-        description="Learn about Kenangan, Ajmer's premier coffee and tea roastery. Founded in 2026, we are dedicated to human connection through the art of the perfect brew."
-        keywords="Kenangan history, about Kenangan coffee, Ajmer roastery, Rajasthan coffee mission, artisanal tea story, Kenangan team"
+        description="Learn about Kenangan, India's premier coffee and tea roastery.We are dedicated to human connection through the art of the perfect brew."
+        keywords="Kenangan history, about Kenangan coffee, India coffee mission, artisanal tea story, Kenangan team"
       />
       <section className="py-24 px-6 max-w-7xl mx-auto">
         <div className="max-w-4xl mx-auto mb-24 text-center">
@@ -25,7 +25,7 @@ export const About: React.FC = () => {
             transition={{ delay: 0.1 }}
             className="text-2xl text-brand-ink/70 leading-relaxed"
           >
-            Founded in the historic city of Ajmer, Kenangan was born from a simple desire: to bridge the gap between artisanal quality and home convenience.
+            Founded in the historic cities of India, Kenangan was born from a simple desire: to bridge the gap between artisanal quality and home convenience.
           </motion.p>
         </div>
 
@@ -35,9 +35,9 @@ export const About: React.FC = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-serif mb-8">From Ajmer to Your Heart</h2>
+            <h2 className="text-4xl font-serif mb-8">From india to Your Heart</h2>
             <p className="text-lg text-brand-ink/70 mb-6 leading-relaxed">
-              In Indonesia and now expanding across India, "Kenangan" means "Memories." We believe that every cup of coffee or tea is an opportunity to create a moment that lasts. Whether it's the quiet contemplation of a morning brew or the shared laughter over a midday latte, we are here to make it special.
+              "Kenangan" means "Memories." We believe that every cup of coffee or tea is an opportunity to create a moment that lasts. Whether it's the quiet contemplation of a morning brew or the shared laughter over a midday latte, we are here to make it special.
             </p>
             <p className="text-lg text-brand-ink/70 mb-10 leading-relaxed">
               Our unique concept allows you to name the coffee after your loved ones, creating a truly personal memory. This isn't just about a label; it's about the intention behind the gift.
@@ -74,13 +74,10 @@ export const About: React.FC = () => {
         <div className="bg-brand-olive text-brand-cream rounded-[64px] p-12 md:p-24 text-center">
           <h2 className="text-4xl md:text-6xl font-serif mb-8">Our Mission</h2>
           <p className="text-xl md:text-2xl text-brand-cream/80 max-w-3xl mx-auto leading-relaxed mb-12">
-            Our mission is to become India's most beloved artisanal coffee and tea brand, known not just for our exceptional taste, but for our commitment to human connection. We aim to reach every corner of the country, delivering a piece of Ajmer's warmth and the universal comfort of a well-brewed cup.
+            Our mission is to become India's most beloved artisanal coffee and tea brand, known not just for our exceptional taste, but for our commitment to human connection. We aim to reach every corner of the country, delivering a piece of india's warmth and the universal comfort of a well-brewed cup.
           </p>
           <div className="flex flex-wrap justify-center gap-8">
-            <div className="text-center">
-              <p className="text-4xl font-serif mb-2">2026</p>
-              <p className="text-xs uppercase tracking-widest font-bold opacity-50">Founded in Ajmer</p>
-            </div>
+            
             <div className="text-center">
               <p className="text-4xl font-serif mb-2">60+</p>
               <p className="text-xs uppercase tracking-widest font-bold opacity-50">Product Varieties</p>
