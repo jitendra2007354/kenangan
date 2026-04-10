@@ -1,9 +1,9 @@
 
-# Kenangan : Premium Artisanal Coffee & Tea from Ajmer, Rajasthan
+# Kenangan : Premium Artisanal Coffee & Tea from India
 
 [![Kenangan Coffee](https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80)](https://kenangan.in)
 
-**Kenangan** is a premium, home-grown brand based in the historic city of Ajmer, Rajasthan. We specialize in sourcing, roasting, and delivering the finest artisanal coffee and rare teas across India. Our mission is to turn every cup into a "Kenangan" (Indonesian for *Memory*).
+**Kenangan** is a premium, home-grown brand based in the historic cities of India. We specialize in sourcing, roasting, and delivering the finest artisanal coffee and rare teas across India. Our mission is to turn every cup into a "Kenangan" (Indonesian for *Memory*).
 
 ## 🌟 The Kenangan Unique Concept: Personalized Coffee Gifts
 We believe coffee is personal. Our unique platform allows you to **name a coffee after your loved ones**. Whether it's a gift for a friend or a treat for yourself, we create custom labels that make every brew a lasting memory.
@@ -31,7 +31,6 @@ This project is optimized for search engines with:
 ## 📬 Contact Us
 
 - **Email**: info@kenangan.in
-- **Office**: 2nd Floor, City Car Ajmer Office, Ajmer, Rajasthan, India
 - **Website**: [kenangan.in](https://www.kenangan.in)
 
 ---
