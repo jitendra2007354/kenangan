@@ -57,10 +57,6 @@ export const Contact: React.FC = () => {
               <div className="w-12 h-12 bg-brand-olive/10 rounded-full flex items-center justify-center text-brand-olive shrink-0">
                 <MapPin size={24} />
               </div>
-              <div>
-                <h4 className="text-xl font-bold mb-1">Visit Us</h4>
-                <p className="text-brand-ink/60">2nd Floor, City Car Ajmer Office, <br />Ajmer, Rajasthan, India</p>
-              </div>
             </div>
           </motion.div>
 
