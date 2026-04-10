@@ -1,15 +1,15 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import {defineConfig, loadEnv} from 'vite';
-export default defineConfig(({mode}) => {
+import { defineConfig, loadEnv } from 'vite';
+
+export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
+  
   return {
-    base: '/', // Pointing to a custom domain root
-    plugins: [react(), tailwindcss()],
-export default defineConfig(({mode}) => {
-  const env = loadEnv(mode, '.', '');
-  return {
+    // Replace 'your-repo-name' with your actual repo name (e.g., 'my-ai-site')
+    // If you have a custom domain (like www.mysite.com), leave it as '/'
+    base: '/', 
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
@@ -20,8 +20,6 @@ export default defineConfig(({mode}) => {
       },
     },
     server: {
-      // HMR is disabled in AI Studio via DISABLE_HMR env var.
-      // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',
     },
   };
