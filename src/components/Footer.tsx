@@ -34,7 +34,7 @@ export const Footer: React.FC = () => {
             <li className="flex items-center gap-2"><Mail size={14} /> info@kenangan.in</li>
             <li className="flex items-start gap-2">
               <MapPin size={14} className="mt-1 shrink-0" /> 
-              <span>2nd Floor, City Car Ajmer Office, Ajmer, Rajasthan, India</span>
+              
             </li>
           </ul>
         </div>
