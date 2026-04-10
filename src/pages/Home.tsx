@@ -61,7 +61,7 @@ export const Home: React.FC<HomeProps> = ({ addToCart }) => {
             transition={{ delay: 0.2 }}
             className="text-xl md:text-2xl text-brand-ink/70 max-w-3xl mx-auto mb-12 leading-relaxed"
           >
-            Welcome to Kenangan (By city car ajmer), where every cup is a journey through time. Based in the heart of Ajmer, we deliver artisanal coffee, rare teas, and premium ingredients to your doorstep. Our unique concept allows you to name the coffee after your loved ones, creating a truly personal memory.
+            Welcome to Kenangan, where every cup is a journey through time. Based in the heart of Ajmer, we deliver artisanal coffee, rare teas, and premium ingredients to your doorstep. Our unique concept allows you to name the coffee after your loved ones, creating a truly personal memory.
           </motion.p>
           <motion.div 
             initial={{ opacity: 0, y: 30 }}
