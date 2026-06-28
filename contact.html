@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submissions & Contact | Kenangan</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta name="google-adsense-account" content="ca-pub-6329337954033271">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6329337954033271" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo"><a href="index.html">KENANGAN <span>JOURNAL</span></a></div>
+            <button class="menu-toggle" onclick="document.querySelector('.site-nav').classList.toggle('active')" aria-label="Toggle Menu">☰</button>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="stories.html">Technology</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="journal.html">Sports</a></li>
+                    <li><a href="politics.html">Politics</a></li>
+                    <li><a href="about.html">Editorial Board</a></li>
+                    <li><a href="policy.html">Privacy Policy</a></li>
+                    <li><a href="contact.html">Submissions</a></li>
+                </ul>
+                <div class="header-search">
+                    <input type="text" placeholder="Search archives...">
+                    <button type="submit">Search</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container layout-grid" style="grid-template-columns: 1fr;">
+        <div class="post-feed">
+            <article class="post-content">
+                <header class="post-header" style="text-align: center; border-bottom: 2px solid var(--border-color); padding-bottom: 20px; margin-bottom: 40px;">
+                    <h1 class="post-title">Submissions & Contact</h1>
+                    <span class="category">Manuscript Guidelines and Inquiries</span>
+                </header>
+                
+                <div class="rich-text">
+                    <div style="display: flex; gap: 40px; flex-wrap: wrap;">
+                        <div style="flex: 1; min-width: 300px;">
+                            <h2>Manuscript Submissions</h2>
+                            <p>The Kenangan Journal accepts unsolicited policy briefs, data-driven structural analyses, and systematic reviews. Manuscripts must be formatted according to the APA 7th Edition guidelines and submitted in PDF format.</p>
+                            <p>To submit a manuscript for peer review, please email the Editorial Office with your abstract and CV attached.</p>
+                            
+                            <hr class="classic-divider" style="margin: 30px 0;">
+                            
+                            <h3>Journal Departments</h3>
+                            <ul style="list-style: none; padding: 0;">
+                                <li style="margin-bottom: 15px;">
+                                    <strong>Editorial Office:</strong><br>
+                                    <a href="mailto:submissions@kenangan.in">submissions@kenangan.in</a>
+                                </li>
+                                <li style="margin-bottom: 15px;">
+                                    <strong>Press & Media Relations:</strong><br>
+                                    <a href="mailto:press@kenangan.in">press@kenangan.in</a>
+                                </li>
+                                <li style="margin-bottom: 15px;">
+                                    <strong>Permissions & Licensing:</strong><br>
+                                    <a href="mailto:rights@kenangan.in">rights@kenangan.in</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div style="flex: 1; min-width: 300px; background-color: var(--off-white); padding: 30px; border-radius: 4px; border: 1px solid var(--border-color);">
+                            <h3 style="margin-top: 0;">General Inquiry</h3>
+                            <form style="display: flex; flex-direction: column; gap: 15px;">
+                                <div>
+                                    <label for="name" style="display: block; margin-bottom: 5px; font-family: var(--font-body); font-weight: 600; font-size: 0.9rem;">Author / Name</label>
+                                    <input type="text" id="name" style="width: 100%; padding: 10px; border: 1px solid var(--border-color); border-radius: 4px; font-family: var(--font-body);">
+                                </div>
+                                <div>
+                                    <label for="institution" style="display: block; margin-bottom: 5px; font-family: var(--font-body); font-weight: 600; font-size: 0.9rem;">Institution / Affiliation</label>
+                                    <input type="text" id="institution" style="width: 100%; padding: 10px; border: 1px solid var(--border-color); border-radius: 4px; font-family: var(--font-body);">
+                                </div>
+                                <div>
+                                    <label for="email" style="display: block; margin-bottom: 5px; font-family: var(--font-body); font-weight: 600; font-size: 0.9rem;">Professional Email</label>
+                                    <input type="email" id="email" style="width: 100%; padding: 10px; border: 1px solid var(--border-color); border-radius: 4px; font-family: var(--font-body);">
+                                </div>
+                                <div>
+                                    <label for="message" style="display: block; margin-bottom: 5px; font-family: var(--font-body); font-weight: 600; font-size: 0.9rem;">Message</label>
+                                    <textarea id="message" rows="5" style="width: 100%; padding: 10px; border: 1px solid var(--border-color); border-radius: 4px; font-family: var(--font-body); resize: vertical;"></textarea>
+                                </div>
+                                <button type="button" style="background-color: var(--accent-color); color: #fff; border: none; padding: 12px 20px; border-radius: 4px; font-family: var(--font-body); font-weight: 700; cursor: pointer; margin-top: 10px; transition: background-color 0.3s ease;">Submit Correspondence</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <p>&copy; 2026 Kenangan Journal. ISSN (Online): 2948-12XX. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">Editorial Board</a>
+                <a href="policy.html">Privacy Policy</a>
+                <a href="contact.html">Submissions</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
